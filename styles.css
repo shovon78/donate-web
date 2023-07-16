@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+}
+
+.header {
+    background-image: url(../donate-today/images/donation6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 100px;
+}
+
+.title {
+    color: rgb(246, 248, 250);
+    text-align: center;
+    font-weight: 800;
+    font-size: 50px;
+    margin-bottom: 50px;
+    padding-top: 150px;
+}
+
+.description {
+    color: rgb(255, 255, 255);
+    margin-left: 350px;
+    margin-right: 350px;
+    font-weight: 400;
+    margin-bottom: 80px;
+
+}
+
+.btn-primary {
+    background-color: orangered;
+    border-radius: 5px;
+    border: 0;
+    height: 35px;
+    padding: 10px;
+    color: aliceblue;
+    text-align: center;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------main Section starts from here-------------------------------*/
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.donate-amount {
+    margin-top: 50px;
+    padding: 80px;
+    text-align: center;
+}
+
+.section-title {
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.section-description {
+    color: rgb(90, 94, 97);
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+
+.donate-container {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    color: rgb(90, 94, 97);
+}
+
+.amount {
+    padding: 40px 30px;
+    font-size: 30px;
+    margin-bottom: 25px;
+
+}
+
+.amount:hover {
+    color: rgb(216, 93, 93);
+    border: 3px solid;
+    background-color: rgb(241, 196, 196);
+}
+
+.other {
+    color: rgb(117, 116, 115);
+    font-size: large;
+    margin-bottom: 10px;
+}
+
+.donate-amount .btn-primary {
+    margin-top: 20px;
+}
+
+.donate-plan {
+    padding: 50px;
+}
+
+.donate-plan-container {
+    display: flex;
+    gap: 40px;
+}
+
+.plan-1:hover {
+    border-radius: 5px;
+    border: 2px solid;
+}
+
+.plan-2:hover {
+    border-radius: 5px;
+    border: 2px solid;
+}
+
+.plan-3:hover {
+    border-radius: 5px;
+    border: 2px solid;
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 23px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.plan-1 {
+    background-color: rgb(199, 222, 241);
+    padding: 30px 50px 30px 20px;
+}
+
+.plan-2 {
+    background-color: rgb(144, 171, 194);
+    padding: 30px 50px 30px 20px;
+}
+
+.plan-3 {
+    background-color: rgb(105, 124, 141);
+    padding: 30px 50px 30px 20px;
+}
+
+/*------------------------------------depend donation section-----------------*/
+
+.depend-donation-container {
+    display: flex;
+    gap: 40px;
+    padding: 120px;
+}
+
+.img-title {
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+
+.img-description {
+    margin-top: 25px;
+
+}
+
+.donate-img {
+    margin-right: 50px;
+}
+
+.depend-donation-container .btn-primary {
+    margin-top: 25px;
+}
