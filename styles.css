@@ -78,6 +78,7 @@ main {
     color: rgb(90, 94, 97);
     margin-bottom: 30px;
     text-align: center;
+    padding: 50px;
 
 }
 
@@ -159,6 +160,7 @@ main {
 
 /*------------------------------------depend donation section-----------------*/
 
+
 .depend-donation-container {
     display: flex;
     gap: 40px;
@@ -182,4 +184,37 @@ main {
 
 .depend-donation-container .btn-primary {
     margin-top: 25px;
+}
+
+.need-survive{
+    display: flex;
+    gap: 40px;
+    padding: 120px;
+    margin: 0;
+}
+
+.get-update{
+    padding: 50px;
+}
+.get-update-info{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(245, 218, 185);
+    padding: 70px 200px 70px 200px;
+    margin-bottom: 100px;
+}
+/*---------------------------Footer styles start here----------------------*/
+.footer-design{
+    background-color: black;
+    background-size: cover;
+    text-align: center;
+}
+.footer-title{
+    color: orangered;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 100px 100px;
+}
+.footer-description{
+    color: azure;
+    padding-bottom: 80px;
 }
